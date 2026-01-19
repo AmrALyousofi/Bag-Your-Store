@@ -198,7 +198,7 @@ function showProductModal(name, price, imgSrc, imgAlt) {
     // حدث زر واتساب
     whatsappBtn.addEventListener('click', function() {
         const message = `مرحباً، أريد طلب المنتج التالي:\n\n${name}\nالسعر: ${price}\n\nمن متجر الثريا`;
-        const whatsappUrl = `https://wa.me/967779617470?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/+967730651230?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     });
 
